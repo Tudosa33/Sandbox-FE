@@ -1,0 +1,28 @@
+section ul.nav {
+    
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid green;
+    
+}
+ul li.d-inline  {
+    
+    
+    float:  left;
+    padding: 20px 20px;
+    margin: 0px 10px;
+    font-size: 20px;
+    display: inline;
+    
+}
+li img {
+    
+    background-color: green;
+    display: inline;
+    height: 70px;
+    width: 70px;
+    padding-top: 0px;
+    margin: 5px 5px;
+}

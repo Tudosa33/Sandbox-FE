@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0PX;
+}
+.grid  {
+    height: 200px;
+    width: 200px;
+    
+    
+
+}
+.grid.child1 {
+    position: relative;
+    background-color: darkgreen;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.grid.child2 {
+    position: relative;
+    background-color: blueviolet;
+    left: 50%;
+    bottom: 50%;
+   
+    
+}
+.grid.child3 { 
+    position: relative;
+    background-color: crimson;
+    bottom: 100%;
+    left: 100%;
+}

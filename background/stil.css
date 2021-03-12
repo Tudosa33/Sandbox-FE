@@ -1,0 +1,23 @@
+body {
+    
+    background-image: radial-gradient(blue, red);
+    background-size: cover;
+    
+    
+    
+    
+}
+div img {
+    display:inline-block;
+
+    background-clip: padding-box;
+    padding: 20px;
+    border:8px solid black;
+    border-style: dotted;
+    border-radius: 12px;
+    width: 300px;
+    background-color: rgba(255, 0, 255, 0.603);
+    
+    
+
+}
