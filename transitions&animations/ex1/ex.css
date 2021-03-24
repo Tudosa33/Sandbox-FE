@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+}
+
+.parent {
+  color: red;
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  margin-top: 20px;
+}
+
+@-webkit-keyframes move {
+  0% {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  25% {
+    margin-top: 100px;
+    margin-left: calc(80vw - 100px);
+    color: yellow;
+  }
+  50% {
+    margin-top: 100px;
+    margin-left: calc(100vw- 100px);
+    color: coral;
+  }
+  75% {
+    margin-left: 0;
+    margin-top: 100px;
+    color: purple;
+  }
+}
+
+@keyframes move {
+  0% {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  25% {
+    margin-top: 100px;
+    margin-left: calc(80vw - 100px);
+    color: yellow;
+  }
+  50% {
+    margin-top: 100px;
+    margin-left: calc(100vw- 100px);
+    color: coral;
+  }
+  75% {
+    margin-left: 0;
+    margin-top: 100px;
+    color: purple;
+  }
+}
+
+.content {
+  width: 20vw;
+  height: 200px;
+  color: red;
+  -webkit-animation-name: text;
+          animation-name: text;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  margin-top: 30px;
+}
+
+@-webkit-keyframes text {
+  0% {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  25% {
+    margin-left: calc(100vw - 100px);
+    margin-top: 0;
+    color: yellow;
+  }
+  50% {
+    margin-top: 200px;
+    margin-left: calc(100vw - 100px);
+    color: coral;
+  }
+  75% {
+    margin-left: 0;
+    margin-top: 200px;
+    color: purple;
+  }
+}
+
+@keyframes text {
+  0% {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  25% {
+    margin-left: calc(100vw - 100px);
+    margin-top: 0;
+    color: yellow;
+  }
+  50% {
+    margin-top: 200px;
+    margin-left: calc(100vw - 100px);
+    color: coral;
+  }
+  75% {
+    margin-left: 0;
+    margin-top: 200px;
+    color: purple;
+  }
+}
+/*# sourceMappingURL=ex.css.map */
