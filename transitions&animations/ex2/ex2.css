@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.container {
+  width: 40px;
+  margin: 80px auto;
+}
+
+.container .dot {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.container .dot.dot1 {
+  background-color: red;
+  -webkit-animation: jump-up 0.6s 0.1s linear infinite;
+          animation: jump-up 0.6s 0.1s linear infinite;
+}
+
+.container .dot.dot2 {
+  background-color: violet;
+  -webkit-animation: jump-up 0.6s 0.2s linear infinite;
+          animation: jump-up 0.6s 0.2s linear infinite;
+}
+
+.container .dot.dot3 {
+  background-color: yellow;
+  -webkit-animation: jump-up 0.6s 0.3s linear infinite;
+          animation: jump-up 0.6s 0.3s linear infinite;
+}
+
+@-webkit-keyframes jump-up {
+  50% {
+    -webkit-transform: translate(0, 15px);
+            transform: translate(0, 15px);
+  }
+}
+
+@keyframes jump-up {
+  50% {
+    -webkit-transform: translate(0, 15px);
+            transform: translate(0, 15px);
+  }
+}
+/*# sourceMappingURL=ex2.css.map */

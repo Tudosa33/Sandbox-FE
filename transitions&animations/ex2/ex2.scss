@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+
+.container {
+    width: 40px;
+    margin: 80px auto;
+    
+    .dot {
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        border-radius: 50%;
+        
+       
+        
+        &.dot1 {
+            background-color: red;
+            animation: jump-up 0.6s 0.1s linear infinite;
+        }
+        &.dot2 {
+            background-color: violet;
+            animation: jump-up 0.6s 0.2s linear infinite;
+           
+        }
+        &.dot3 { 
+            background-color: yellow;
+            animation: jump-up 0.6s 0.3s linear infinite;
+        }
+        @keyframes jump-up {
+            50% {
+                transform: translate(0,15px);
+            }
+        }
+    }
+}
